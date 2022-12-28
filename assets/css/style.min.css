@@ -807,14 +807,6 @@ html, body {
   margin-bottom: 0.75rem;
 }
 
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
 .mr-3 {
   margin-right: 0.75rem;
 }
@@ -823,8 +815,28 @@ html, body {
   margin-top: 20px;
 }
 
-.block {
-  display: block;
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.ml-\[20px\] {
+  margin-left: 20px;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.ml-\[30px\] {
+  margin-left: 30px;
+}
+
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .inline {
@@ -901,6 +913,10 @@ html, body {
 
 .max-w-\[180px\] {
   max-width: 180px;
+}
+
+.max-w-\[300px\] {
+  max-width: 300px;
 }
 
 .max-w-\[240px\] {
@@ -994,6 +1010,10 @@ html, body {
   border-bottom-width: 1px;
 }
 
+.border-t-\[1px\] {
+  border-top-width: 1px;
+}
+
 .border-solid {
   border-style: solid;
 }
@@ -1018,6 +1038,11 @@ html, body {
   border-bottom-color: rgb(221 221 221 / var(--tw-border-opacity));
 }
 
+.border-t-gray {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(221 221 221 / var(--tw-border-opacity));
+}
+
 .bg-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(27 27 68 / var(--tw-bg-opacity));
@@ -1038,14 +1063,14 @@ html, body {
   background-color: rgb(237 243 245 / var(--tw-bg-opacity));
 }
 
-.bg-bad {
-  --tw-bg-opacity: 1;
-  background-color: rgb(237 243 245 / var(--tw-bg-opacity));
-}
-
 .bg-red-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
+.bg-bad {
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 243 245 / var(--tw-bg-opacity));
 }
 
 .bg-cover {
@@ -1077,6 +1102,10 @@ html, body {
 
 .pt-\[100px\] {
   padding-top: 100px;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-center {
@@ -1112,15 +1141,6 @@ html, body {
   font-size: 24px;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-\[24px\] {
-  font-size: 24px;
-}
-
 .font-black {
   font-weight: 900;
 }
@@ -1131,10 +1151,6 @@ html, body {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.leading-\[0\] {
-  line-height: 0;
 }
 
 .tracking-widest {
@@ -1163,6 +1179,11 @@ html, body {
 .text-aqua {
   --tw-text-opacity: 1;
   color: rgb(157 202 214 / var(--tw-text-opacity));
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .text-sable {
@@ -1334,12 +1355,40 @@ html, body {
     margin-bottom: 160px;
   }
 
+  .semedium\:mb-3 {
+    margin-bottom: 0.75rem;
+  }
+
   .semedium\:ml-0 {
     margin-left: 0px;
   }
 
+  .semedium\:h-\[58px\] {
+    height: 58px;
+  }
+
+  .semedium\:h-\[35px\] {
+    height: 35px;
+  }
+
+  .semedium\:h-\[30px\] {
+    height: 30px;
+  }
+
+  .semedium\:w-\[35px\] {
+    width: 35px;
+  }
+
+  .semedium\:w-\[30px\] {
+    width: 30px;
+  }
+
   .semedium\:max-w-\[300px\] {
     max-width: 300px;
+  }
+
+  .semedium\:max-w-\[320px\] {
+    max-width: 320px;
   }
 
   .semedium\:flex-col {
@@ -1368,6 +1417,10 @@ html, body {
 
   .semedium\:text-medium {
     font-size: 40px;
+  }
+
+  .semedium\:text-middle {
+    font-size: 35px;
   }
 }
 
