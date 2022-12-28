@@ -839,6 +839,22 @@ html, body {
   margin-left: 0.5rem;
 }
 
+.mb-\[58px\] {
+  margin-bottom: 58px;
+}
+
+.mb-\[120px\] {
+  margin-bottom: 120px;
+}
+
+.mb-\[78px\] {
+  margin-bottom: 78px;
+}
+
+.mb-\[68px\] {
+  margin-bottom: 68px;
+}
+
 .inline {
   display: inline;
 }
